@@ -1,35 +1,88 @@
-﻿int Prompt(string message)
-{
-    Console.Write(message);
-    string ReadInput = Console.ReadLine();
-    int result = int.Parse(ReadInput);
-    return result;
-}
+﻿// Напишите программу, которая задаёт массив из 8 элементов и выводит их на экран.
+// 1, 2, 5, 7, 19 -> [1, 2, 5, 7, 19]
+// 6, 1, 33 -> [6, 1, 33]
+    
 
-int[] GenerateArray(int Length, int minValue, int maxValue)
+Console.Write("Введите ряд чисел, разделенных запятой : ");
+string? seriesOfNumbers = Console.ReadLine();
+    
+seriesOfNumbers = seriesOfNumbers + ","; 
+    
+string RemovingSpaces (string series)
 {
-    int[] array = new int[Length];
-    Random random = new Random();
-    for (int i = 0; i < Length; i++)
-    {
-        array[i] = random.Next(minValue, maxValue + 1);
+    string seriesNew = "";
+    for (int i = 0; i < series.Length; i++)
+      {
+        if (series[i] != ' ') 
+        {
+          seriesNew += series[i];
+        }
+      }
+      return seriesNew;
+}
+    
+void СheckNumber2 (int  series)
+{
+    
+if (series == '0'||series == '1'||series == '2'
+||series == '3'||series == '4'||series == '5'||series == '6'
+||series == '7'||series == '8'||series == '9'||series == ','
+||series == '-')
+{
+    
+}
+    
+ else {
+        Console.WriteLine($"Ошибка ввода  символа. Вводи цифры.");
+      }
     }
-    return array;
-}
-void PrintArray(int[] array)
-{
-    Console.Write("[");
-    for (int i = 0; i < array.Length - 1; i++)
-    {
-        Console.Write($"{array[i]}, ");
+    
+
+    int[] ArrayOfNumbers(string seriesNew)
+    { 
+    
+      int[] arrayOfNumbers = new int[1]; 
+    
+      int j =0;
+    
+      for (int i = 0; i < seriesNew.Length; i++)
+      {
+        string seriesNew1 = "";
+    
+        while (seriesNew[i] != ',' && i < seriesNew.Length)
+        {
+          seriesNew1 += seriesNew[i];
+          СheckNumber2(seriesNew[i]);
+          i++;
+        }
+        arrayOfNumbers[j] = Convert.ToInt32(seriesNew1); 
+        if (i < seriesNew.Length-1)
+        {
+          arrayOfNumbers = arrayOfNumbers.Concat(new int[] {0}).ToArray(); 
+        }
+        j++;
+      }
+      return arrayOfNumbers;
     }
-    Console.Write($"{array[array.Length - 1]}");
-    Console.Write("]");
-}
-
-int Length = Prompt("Длина массива: ");
-int min = Prompt("Начальное значение, для диапазона случайного числа: ");
-int max = Prompt("Конечное значение, для диапазона случайного числа: ");
-int[] array = GenerateArray(Length, min, max);
-
-PrintArray(array);
+    
+    void PrintArry(int[] coll)
+    {
+      int count = coll.Length;
+      int index = 0;
+      Console.Write("[");
+      while(index < count)
+      {
+        Console.Write(coll[index]);
+        index++;
+        if (index < count){
+          Console.Write(", ");
+        }
+      }
+      Console.Write("]");
+    } 
+    
+    string seriesNew = RemovingSpaces(seriesOfNumbers);
+    
+    int[] arrayOfNumbers =  ArrayOfNumbers(seriesNew);
+    
+    PrintArry(arrayOfNumbers);
