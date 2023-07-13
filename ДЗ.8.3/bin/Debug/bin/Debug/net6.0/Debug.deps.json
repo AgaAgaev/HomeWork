@@ -6,15 +6,15 @@
   "compilationOptions": {},
   "targets": {
     ".NETCoreApp,Version=v6.0": {
-      "ДЗ.8.3/1.0.0": {
+      "Debug/1.0.0": {
         "runtime": {
-          "ДЗ.8.3.dll": {}
+          "Debug.dll": {}
         }
       }
     }
   },
   "libraries": {
-    "ДЗ.8.3/1.0.0": {
+    "Debug/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

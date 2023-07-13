@@ -1,0 +1,15 @@
+C:\Users\user\Desktop\Курс Знакомство с языками программирования\ДЗ-C#\ДЗ.8.3\bin\Debug\bin\Debug\net6.0\Debug.exe
+C:\Users\user\Desktop\Курс Знакомство с языками программирования\ДЗ-C#\ДЗ.8.3\bin\Debug\bin\Debug\net6.0\Debug.deps.json
+C:\Users\user\Desktop\Курс Знакомство с языками программирования\ДЗ-C#\ДЗ.8.3\bin\Debug\bin\Debug\net6.0\Debug.runtimeconfig.json
+C:\Users\user\Desktop\Курс Знакомство с языками программирования\ДЗ-C#\ДЗ.8.3\bin\Debug\bin\Debug\net6.0\Debug.dll
+C:\Users\user\Desktop\Курс Знакомство с языками программирования\ДЗ-C#\ДЗ.8.3\bin\Debug\bin\Debug\net6.0\Debug.pdb
+C:\Users\user\Desktop\Курс Знакомство с языками программирования\ДЗ-C#\ДЗ.8.3\bin\Debug\obj\Debug\net6.0\Debug.csproj.AssemblyReference.cache
+C:\Users\user\Desktop\Курс Знакомство с языками программирования\ДЗ-C#\ДЗ.8.3\bin\Debug\obj\Debug\net6.0\Debug.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\user\Desktop\Курс Знакомство с языками программирования\ДЗ-C#\ДЗ.8.3\bin\Debug\obj\Debug\net6.0\Debug.AssemblyInfoInputs.cache
+C:\Users\user\Desktop\Курс Знакомство с языками программирования\ДЗ-C#\ДЗ.8.3\bin\Debug\obj\Debug\net6.0\Debug.AssemblyInfo.cs
+C:\Users\user\Desktop\Курс Знакомство с языками программирования\ДЗ-C#\ДЗ.8.3\bin\Debug\obj\Debug\net6.0\Debug.csproj.CoreCompileInputs.cache
+C:\Users\user\Desktop\Курс Знакомство с языками программирования\ДЗ-C#\ДЗ.8.3\bin\Debug\obj\Debug\net6.0\Debug.dll
+C:\Users\user\Desktop\Курс Знакомство с языками программирования\ДЗ-C#\ДЗ.8.3\bin\Debug\obj\Debug\net6.0\refint\Debug.dll
+C:\Users\user\Desktop\Курс Знакомство с языками программирования\ДЗ-C#\ДЗ.8.3\bin\Debug\obj\Debug\net6.0\Debug.pdb
+C:\Users\user\Desktop\Курс Знакомство с языками программирования\ДЗ-C#\ДЗ.8.3\bin\Debug\obj\Debug\net6.0\Debug.genruntimeconfig.cache
+C:\Users\user\Desktop\Курс Знакомство с языками программирования\ДЗ-C#\ДЗ.8.3\bin\Debug\obj\Debug\net6.0\ref\Debug.dll
